@@ -181,7 +181,7 @@ Install JDK (Java Development Kit)
 
 Clone this repository:
 
-git clone https://github.com/Ronit049/java-core.git
+git clone https://github.com/Ronit049/core-java
 
 Navigate to the desired folder
 
