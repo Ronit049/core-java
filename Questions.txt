@@ -1,0 +1,10 @@
+1. What is a String in Java? 
+2. Difference between String and StringBuffer? 
+3. Difference between StringBuffer and StringBuilder? 
+4. What is immutability? 
+5. What is charAt() method? 
+6. What is substring()? 
+7. What is equals() vs equalsIgnoreCase()? 
+8. What is compareTo()? 
+9. What is trim() method? 
+10. Which is faster: StringBuffer or StringBuilder?
