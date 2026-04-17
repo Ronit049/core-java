@@ -1,250 +1,234 @@
-☕ Java Core – Complete Practice Repository
-📌 Overview
+<div align="center">
 
-Welcome to Java Core – a comprehensive repository containing my structured practice and learning journey in Core Java.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F89820&center=true&vCenter=true&width=600&lines=☕+Java+Core+Practice+Repo;Learning+by+Doing%2C+Daily.;From+Basics+to+Backend." alt="Typing SVG" />
 
-This repository covers fundamental to intermediate Java concepts including object-oriented programming, control flow, collections, exception handling, file handling, and problem-solving exercises.
+<br/>
 
-As a Computer Science student, I created this repository to:
+![Java](https://img.shields.io/badge/Java-JDK%2017-F89820?style=for-the-badge&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/Ronit049/core-java?style=for-the-badge&color=orange)
+![Stars](https://img.shields.io/github/stars/Ronit049/core-java?style=for-the-badge&color=yellow)
 
-Strengthen Java fundamentals
+<br/>
 
-Prepare for Data Structures & Algorithms
+> *A structured, hands-on journey through Core Java — built one concept at a time.*
 
-Build a strong base for backend development
+</div>
 
-Prepare for internships and technical interviews
+---
 
-Maintain organized coding practice
-***
-🎯 Objectives
+## 📌 What Is This?
 
-Master Core Java concepts
+This repository is my personal **Core Java practice ground** — structured, consistent, and built from scratch as I grow as a developer.
 
-Write clean and readable code
+It covers everything from the very basics of Java syntax to object-oriented design, collections, exception handling, file I/O, and algorithmic problem-solving. Every file here was written by hand to build real understanding, not just familiarity.
 
-Practice problem-solving regularly
+**Why I built this:**
+- 🔨 Solidify Java fundamentals before moving to frameworks
+- 🧠 Sharpen logic and problem-solving skills daily
+- 🚀 Prepare for internships and technical interviews
+- 📚 Create a reference I can return to anytime
 
-Understand Object-Oriented Programming deeply
+---
 
-Build strong foundations for advanced topics (Spring Boot, Backend, etc.)
-***
-🧠 Topics Covered
-🔹 1. Basics of Java
+## 🗂️ Repository Structure
 
-Introduction to Java
-
-JVM, JRE, JDK
-
-Data Types
-
-Variables
-
-Operators
-
-Type Casting
-
-Input & Output (Scanner class)
-
-🔹 2. Control Statements
-
-if / else
-
-switch
-
-for loop
-
-while loop
-
-do-while loop
-
-break & continue
-
-🔹 3. Methods
-
-Method declaration
-
-Return types
-
-Method overloading
-
-Recursion
-
-🔹 4. Object-Oriented Programming (OOP)
-
-Classes & Objects
-
-Constructors
-
-this keyword
-
-Encapsulation
-
-Inheritance
-
-Polymorphism
-
-Method Overriding
-
-Abstraction
-
-Interfaces
-
-🔹 5. Arrays
-
-Single-dimensional arrays
-
-Multi-dimensional arrays
-
-Array operations
-
-Sorting & searching basics
-
-🔹 6. Strings
-
-String methods
-
-StringBuilder
-
-String comparison
-
-Pattern programs
-
-🔹 7. Exception Handling
-
-try-catch
-
-finally
-
-throw & throws
-
-Custom exceptions
-
-🔹 8. Collections Framework
-
-ArrayList
-
-LinkedList
-
-HashSet
-
-HashMap
-
-Iterators
-
-🔹 9. File Handling
-
-Reading files
-
-Writing files
-
-File class
-
-BufferedReader & BufferedWriter
-
-🔹 10. Practice Programs
-
-Number-based problems
-
-Pattern printing
-
-Basic algorithmic problems
-
-Mini console-based programs
-***
-🗂️ Folder Structure
-
-java-core/
+```
+core-java/
 │
-├── basics/
-├── control-statements/
-├── methods/
-├── oop/
-├── arrays/
-├── strings/
-├── exception-handling/
-├── collections/
-├── file-handling/
-└── practice-programs/
-***
-🛠️ Technologies Used
+├── JAVA/                   # Core concept files — OOP, methods, strings, etc.
+├── datatype/               # Primitive types, type casting, and data handling
+├── java lab class/         # Lab exercises and classroom practice programs
+│
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
 
-Java (JDK 17)
+---
 
-VS Code / IntelliJ IDEA
+## 🧠 Topics Covered
 
-Git & GitHub
-***
-▶️ How to Run the Programs
+<details>
+<summary><strong>🔹 1. Basics of Java</strong></summary>
 
-Install JDK (Java Development Kit)
+- Introduction to Java & the JVM ecosystem (JVM / JRE / JDK)
+- Primitive data types and variables
+- Operators and expressions
+- Type casting (implicit & explicit)
+- Input & Output using the `Scanner` class
 
-Clone this repository:
+</details>
 
-git clone https://github.com/Ronit049/core-java
+<details>
+<summary><strong>🔹 2. Control Statements</strong></summary>
 
-Navigate to the desired folder
+- `if` / `else if` / `else`
+- `switch` statements
+- `for`, `while`, `do-while` loops
+- `break` and `continue`
 
-Compile the file:
+</details>
 
+<details>
+<summary><strong>🔹 3. Methods</strong></summary>
+
+- Method declaration and return types
+- Method overloading
+- Recursion
+
+</details>
+
+<details>
+<summary><strong>🔹 4. Object-Oriented Programming (OOP)</strong></summary>
+
+- Classes & Objects
+- Constructors and the `this` keyword
+- Encapsulation
+- Inheritance & Method Overriding
+- Polymorphism
+- Abstraction & Interfaces
+
+</details>
+
+<details>
+<summary><strong>🔹 5. Arrays</strong></summary>
+
+- Single and multi-dimensional arrays
+- Array operations, sorting & searching basics
+
+</details>
+
+<details>
+<summary><strong>🔹 6. Strings</strong></summary>
+
+- `String` class methods
+- `StringBuilder` and string manipulation
+- String comparison
+- Pattern programs
+
+</details>
+
+<details>
+<summary><strong>🔹 7. Exception Handling</strong></summary>
+
+- `try-catch-finally`
+- `throw` and `throws`
+- Custom exceptions
+
+</details>
+
+<details>
+<summary><strong>🔹 8. Collections Framework</strong></summary>
+
+- `ArrayList`, `LinkedList`
+- `HashSet`, `HashMap`
+- Iterators
+
+</details>
+
+<details>
+<summary><strong>🔹 9. File Handling</strong></summary>
+
+- `File` class
+- Reading & writing files
+- `BufferedReader` & `BufferedWriter`
+
+</details>
+
+<details>
+<summary><strong>🔹 10. Practice Programs</strong></summary>
+
+- Number-based problems
+- Pattern printing
+- Mini console-based programs
+- Lab exercises
+
+</details>
+
+---
+
+## ▶️ How to Run
+
+**Prerequisites:** [JDK 17+](https://www.oracle.com/java/technologies/downloads/) installed on your machine.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Ronit049/core-java.git
+
+# 2. Navigate to the relevant folder
+cd core-java/JAVA
+
+# 3. Compile any file
 javac FileName.java
 
-Run the program:
-
+# 4. Run it
 java FileName
-***
-📈 Learning Approach
+```
 
-Daily practice
+> **Tip:** Use [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [VS Code](https://code.visualstudio.com/) with the Java Extension Pack for the best experience.
 
-Writing code without copying
+---
 
-Focusing on logic building
+## 🛠️ Tech Stack
 
-Understanding concepts before implementation
+| Tool | Purpose |
+|------|---------|
+| Java (JDK 17) | Core language |
+| IntelliJ IDEA / VS Code | IDE |
+| Git & GitHub | Version control |
 
-Improving code readability and structure
-***
-🚀 Future Improvements
+---
 
-Add Data Structures implementation in Java
+## 📈 My Learning Approach
 
-Add small Java console projects
+- ✅ Write code from scratch — no copy-pasting
+- ✅ Understand the concept before implementing it
+- ✅ Practice daily, even if just one small program
+- ✅ Prioritize logic over syntax memorization
+- ✅ Review and refactor previous code regularly
 
-Add notes and explanations
+---
 
-Add problem-solving section (LeetCode style)
+## 🚀 Roadmap
 
-Add unit testing examples
-***
-👨‍💻 About Me
+- [ ] Data Structures in Java (Linked Lists, Stacks, Queues, Trees)
+- [ ] LeetCode-style problem-solving section
+- [ ] Concept notes and explanations alongside code
+- [ ] Small Java console projects (calculator, library system, etc.)
+- [ ] Unit testing with JUnit 5
+- [ ] Transition to Spring Boot basics
 
-I am a Computer Science Engineering student passionate about programming, backend development, and problem-solving.
+---
 
-Currently focusing on:
+## 👨‍💻 About Me
 
-Java Development
+I'm a **Computer Science Engineering student** passionate about backend development, clean code, and continuous learning.
 
-Data Structures & Algorithms
+Currently focused on:
+- 🟠 Java & Core Programming
+- 📊 Data Structures & Algorithms
+- 💼 Internship & placement preparation
 
-Internship Preparation
-***
-⭐ Why This Repository?
+---
 
-This repository reflects:
+## 📬 Connect With Me
 
-Consistency
+<div align="center">
 
-Structured learning
+[![CodeChef](https://img.shields.io/badge/CodeChef-its__rsr04-brown?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/its_rsr04)
+[![HackerRank](https://img.shields.io/badge/HackerRank-ronitrajrsr0409-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/ronitrajrsr0409)
 
-Practical coding implementation
+</div>
 
-Strong foundation building
-***
-📬 Connect With Me
+---
 
-[🏆 CodeChef](https://www.codechef.com/users/its_rsr04)
+<div align="center">
 
-[💡 HackerRank](https://www.hackerrank.com/profile/ronitrajrsr0409)
-***
-⭐ This repository grows as I grow.
+⭐ **If this repo helped you, consider giving it a star — it keeps me going!**
+
+*This repository grows as I grow.*
+
+</div>
